@@ -1,9 +1,0 @@
-target/
-*.class
-*.jar
-.idea/
-*.iml
-.classpath
-.project
-.settings/
-.DS_Store

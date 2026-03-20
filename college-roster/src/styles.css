@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --page-bg:    #faf7f2;
+  --white:      #ffffff;
+  --ink:        #1a1a2e;
+  --ink-light:  #5a5a72;
+  --border:     #e4ddd4;
+  --primary:    #c84b31;
+  --primary-bg: #fff0ed;
+  --green:      #2d7a4f;
+  --green-bg:   #edf7f1;
+  --blue:       #2563a8;
+  --blue-bg:    #eef4fd;
+  --gold:       #b07d1a;
+  --gold-bg:    #fdf5e0;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans:  'IBM Plex Sans', sans-serif;
+  --radius:     10px;
+  --shadow:     0 2px 16px rgba(0,0,0,0.07);
+}
+
+body {
+  background: var(--page-bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
